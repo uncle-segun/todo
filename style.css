@@ -1,0 +1,36 @@
+.container{
+    padding: 100%;
+}
+
+.title{
+    font-size: 50px;
+}
+.desc-content{
+    width: 30em;
+}
+.form{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.todo-inputs{
+    outline: none;
+    width: 50%;
+    height: 30px;
+    border-color: darkgray;
+    box-shadow: none;
+    padding-left: 10px;
+}
+.todo-inputs:focus{
+    width: 70%;
+    transition: 0.1ms;
+    border-color: darkgray!important;
+    box-shadow: none;
+    padding-left: 10%;
+
+}
+.body{
+    background-color: aliceblue;
+    color: #2a2929;
+}
